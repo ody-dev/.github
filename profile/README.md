@@ -1,3 +1,4 @@
+![image](https://github.com/odysee-dev/.github/blob/master/profile/cover.png?raw=true)
 # ODY framework
 What is ODY? A super lightweight PHP framework that leverages many of the awesome things Swoole delivers aimed towards API development and microservices. There isn't much fluff, choose what you need 
 and implement it as you see fit. 
