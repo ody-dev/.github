@@ -9,5 +9,5 @@ Originally started as a case study on PHP framework architecture, ODY quickly ev
 > 🚧 Not production-ready (yet). ODY is actively being developed. While the core functionality is stable, additional components and features are continuously being added.
 
 ```
-create-project ody/ody-skel ody
+create-project ody/ody-skeleton ody
 ```
