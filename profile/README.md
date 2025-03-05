@@ -7,7 +7,7 @@ ODY is a lightweight PHP coroutine framework designed for API development and mi
 > 🚧 Not production-ready. ODY is actively being developed. While the core functionality is stable, additional components and features are continuously being added.
 
 ## Install a skeleton project
-Installing ody-skel provides a basic framework with every component and their corresponding configuration files installed. In addition a couple of example classes (controllers, models, repositories and jobs and commanands) in `app/` are provided to get you started right away.
+Installing ody-skel provides a basic framework with every component and their corresponding configuration files installed. In addition a couple of example classes (controllers, models, repositories, jobs and commanands) in `app/` are provided to get you started right away.
 At the moment it ships with Eloquent as ORM. 
 
 You can run most of swoole's coroutine functionality in classes that go throught the request lifecycle. Try it out!
