@@ -26,5 +26,25 @@ php ody scheduler:start
 # start a websocket server
 php ody websocket:start
 ```
+## Available ODY CLI commands
 
+```
+ migrations
+  migrations:cleanup   Rollback all migrations and delete log table
+  migrations:create    Create migration
+  migrations:init      Initialize migrations
+  migrations:migrate   Run migrations
+  migrations:rollback  Rollback migrations
+  migrations:status    List of migrations already executed and list of migrations to execute
+ scheduler
+  scheduler:start      Start scheduler instance
+ server
+  server:reload        reload http server
+  server:start         Start a http server
+  server:status        server status
+  server:stop          stops the http server
+ websocket
+  websocket:stop       stop websocket server
+  websocket:start     start websocket server
+```
 
