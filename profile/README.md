@@ -32,7 +32,6 @@ php ody websocket:start
  migrations
   migrations:cleanup   Rollback all migrations and delete log table
   migrations:create    Create migration
-  migrations:init      Initialize migrations
   migrations:migrate   Run migrations
   migrations:rollback  Rollback migrations
   migrations:status    List of migrations already executed and list of migrations to execute
