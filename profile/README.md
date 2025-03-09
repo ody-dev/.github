@@ -20,7 +20,7 @@ php ody server:start
 
 curl 127.0.0.1:9501/users
 
-# Start the scheduler (a example job that runs every minute gets scheduled)
+# Start the scheduler (an example job that runs every minute gets scheduled as example)
 php ody scheduler:start
 
 # start a websocket server
