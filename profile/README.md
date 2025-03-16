@@ -1,49 +1,25 @@
 ![image](https://github.com/odysee-dev/.github/blob/master/profile/cover.png?raw=true)
 # ODY framework
-ODY is a lightweight PHP coroutine framework designed for API development and microservices, built on top of Swoole’s powerful asynchronous capabilities. It keeps things minimal, allowing you to pick only what you need and integrate it your way.
-
+ODY is a lightweight high-performance asynchronous PHP framework designed for building microservices and RESTful APIs with ease. Built on top of Swoole, ODY leverages asynchronous processing and coroutines to deliver exceptional performance while maintaining a clean, developer-friendly architecture.
 
 > [!WARNING]
-> 🚧 Not production-ready. ODY is actively being developed. While the core functionality is stable, additional components and features are continuously being added.
+> 🚧 Not production-ready. ODY is actively being developed. There will be unexpected bugs.
 
-## Install a skeleton project
-Installing ody-skel provides a basic framework with every component and their corresponding configuration files installed. In addition a couple of example classes (controllers, models, repositories, jobs and commanands) in `app/` are provided to get you started right away.
-At the moment it ships with Eloquent as ORM. 
+## Key Features
 
-You can run most of swoole's coroutine functionality in classes that go throught the request lifecycle. Try it out!
+- **High Performance**: Built with Swoole support for asynchronous processing and coroutines
+- **PSR Compliance**: Implements PSR-7, PSR-15, and PSR-17 for HTTP messaging and middleware
+- **Modular Design**: Build and integrate different modules
+- **Middleware System**: Middleware system for request/response processing
+- **Dependency Injection**: Built-in IoC container for dependency management
+- **Console Support**: CLI commands for various tasks and application management
+- **Routing**: Simple and flexible routing system with support for route groups and middleware
 
-```
-create-project ody/ody-skel ody 0.0.1
+## Documentation
 
-# Start a HTTP server
-php ody server:start
+For complete documentation, visit [ody.dev/docs](https://ody.dev/docs).
 
-curl 127.0.0.1:9501/users
+## License
 
-# Start the scheduler (an example job that runs every minute gets scheduled as example)
-php ody scheduler:start
-
-# start a websocket server
-php ody websocket:start
-```
-## Available ODY CLI commands
-
-```
- migrations
-  migrations:cleanup   Rollback all migrations and delete log table
-  migrations:create    Create migration
-  migrations:migrate   Run migrations
-  migrations:rollback  Rollback migrations
-  migrations:status    List of migrations already executed and list of migrations to execute
- scheduler
-  scheduler:start      Start scheduler instance
- server
-  server:reload        reload http server
-  server:start         Start a http server
-  server:status        server status
-  server:stop          stops the http server
- websocket
-  websocket:stop       stop websocket server
-  websocket:start     start websocket server
-```
+ODY Framework is open-source software licensed under the MIT license.
 
