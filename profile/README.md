@@ -15,9 +15,20 @@ ODY is a lightweight high-performance asynchronous PHP framework designed for bu
 - **Console Support**: CLI commands for various tasks and application management
 - **Routing**: Simple and flexible routing system with support for route groups and middleware
 
+## Installation
+
+Requires php8.3 or above.
+
+Before installing the framework please make sure you have `php8.x-swoole` installed
+
+```
+composer create-project ody/framework ody
+```
+
 ## Documentation
 
-For complete documentation, visit [ody.dev/docs](https://ody.dev/docs).
+For (for now) incomplete documentation, visit [ody.dev/docs](https://ody.dev/docs) or dive into the packages on this GitHub account,
+they contain a lot of information and API references that are not published on the official documentation yet.
 
 ## License
 
