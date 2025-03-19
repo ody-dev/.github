@@ -27,7 +27,7 @@ composer create-project ody/framework ody
 
 ## Documentation
 
-For (for now) incomplete documentation, visit [ody.dev/docs](https://ody.dev/docs) or dive into the packages on this GitHub account,
+Incomplete documentation; visit [ody.dev/docs](https://ody.dev/docs) or dive into the packages on this GitHub account,
 they contain a lot of information and API references that are not published on the official documentation yet.
 
 ## License
