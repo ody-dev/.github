@@ -42,6 +42,7 @@ Requests/sec:  33120.42
 
 **Dare to try it?**
 ```bash
+# Install php8.3-swoole first!
 composer create-project ody/framework ody
 cd ody
 php ody server:start
