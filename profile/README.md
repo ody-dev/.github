@@ -9,17 +9,15 @@ ODY is a lightweight high-performance asynchronous PHP framework designed for bu
 🔥 *"After using ODY, going back to Laravel feels like driving a tractor on the Autobahn."*  
 *(Yes, it’s that fast. No, it’s not production-ready yet—but you’ll wish it was.)*
 
-Current benchmarks: **25545.05 requests/sec**
+Current benchmarks: **33120 requests/sec**
 ```bash
-wrk -t12 -c200 -d30s http://localhost:9501/users/1
 Running 30s test @ http://localhost:9501/users/1
   12 threads and 200 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     8.32ms    6.68ms  72.77ms   82.09%
-    Req/Sec     2.14k   169.90     4.01k    69.33%
-  767631 requests in 30.05s, 326.44MB read
-Requests/sec:  25545.05
-Transfer/sec:     10.86MB
+    Latency     5.97ms    3.60ms  71.90ms   74.11%
+    Req/Sec     2.78k   330.18    12.85k    80.15%
+  996776 requests in 30.10s
+Requests/sec:  33120.42
 ```
 
 ## Key Features
