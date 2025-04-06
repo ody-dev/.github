@@ -22,7 +22,7 @@ Requests/sec:  25545.05
 Transfer/sec:     10.86MB
 ```
 
-## 🚀 Key Features
+## Key Features
 
 - **High Performance**: Built with Swoole support for asynchronous processing and coroutines
 - **PSR Compliance**: Implements PSR-7, PSR-15, and PSR-17 for HTTP messaging and middleware
@@ -31,14 +31,6 @@ Transfer/sec:     10.86MB
 - **Dependency Injection**: Built-in IoC container for dependency management
 - **Console Support**: CLI commands for various tasks and application management
 - **Routing**: Simple and flexible routing system with support for route groups and middleware
-
-## **📦 Batteries Included (But Modular)**
-Need more? ODY ships with **13+ modules**:
-- **Database:** Eloquent, Doctrine, or raw DBAL (your choice).
-- **Real-Time:** WebSockets, task manager, process pooling.
-- **Auth:** JWT/OAuth2 out of the box.
-
-*No bloat. Swap anything.*
 
 ## **🤔 "But Is It Production-Ready?"**
 ✅ *"We’re almost in beta—but here’s what’s already working:"*
