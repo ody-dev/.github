@@ -5,10 +5,6 @@
 
 ODY is a lightweight high-performance asynchronous PHP framework designed for building microservices and RESTful APIs with ease. Built on top of Swoole, ODY leverages asynchronous processing and coroutines to deliver exceptional performance while maintaining a clean, developer-friendly architecture.
 
-**Warning:**  
-🔥 *"After using ODY, going back to Laravel feels like driving a tractor on the Autobahn."*  
-*(Yes, it’s that fast. No, it’s not production-ready yet—but you’ll wish it was.)*
-
 Current benchmarks: **33120 requests/sec**
 ```bash
 Running 30s test @ http://localhost:9501/users/1
