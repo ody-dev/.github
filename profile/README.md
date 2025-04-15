@@ -29,14 +29,14 @@ Requests/sec:  33120.42
 ## **🤔 "But Is It Production-Ready?"**
 ✅ *"We’re almost in beta—but here’s what’s already working:"*
 - [x] A solid foundation
-- [x] Truly modular design with nex to no dependencies
+- [x] Truly modular design with next to no dependencies
 - [X] WebSockets
 - [X] Async CQRS
 - [x] AMQP support
 - [x] conenction pooling
 - [X] 8K RPS benchmarks on lightweight 5$ VPS instances 
 
-**Dare to try it?**
+**Want to try it?**
 ```bash
 # Install php8.3-swoole first!
 composer create-project ody/framework ody
